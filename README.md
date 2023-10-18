@@ -65,8 +65,8 @@ git push origin master
 ## Contacto
 Si tienes preguntas, sugerencias o inquietudes relacionadas con este repositorio, no dudes en ponerte en contacto con el organizador del taller:
 
-1. Nombre: [Joshua Aviles y Brian Guzman],
-2. Email: [joshuaaviles58gmail.com],
-3. LinkedIn: [[Perfil de LinkedIn](https://www.linkedin.com/in/joshua-aviles-a06672278/)https://www.linkedin.com/in/joshua-aviles-a06672278/]
+1. Nombre: Joshua Aviles y Brian Guzman,
+2. Email: joshuaaviles58gmail.com,
+3. LinkedIn: [Perfil de LinkedIn](https://www.linkedin.com/in/joshua-aviles-a06672278/)https://www.linkedin.com/in/joshua-aviles-a06672278/
 
 ¡Gracias por contribuir y participar en este taller!
