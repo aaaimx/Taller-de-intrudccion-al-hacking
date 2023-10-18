@@ -29,7 +29,7 @@ El repositorio está estructurado de la siguiente manera:
 
 - `materiales/`: Contiene subcarpetas organizadas por temas con materiales, ejemplos de código y recursos relacionados.
 
-- `enlaces/`: Directorio que alberga archivos de texto con enlaces a otros repositorios, documentos o recursos útiles.
+- `recursos/`: Directorio que alberga archivos de texto con enlaces a otros repositorios, documentos o recursos útiles.
 
 - `README.md`: Este archivo que proporciona información general sobre el repositorio y su estructura.
 
