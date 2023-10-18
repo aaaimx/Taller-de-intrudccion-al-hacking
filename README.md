@@ -6,8 +6,7 @@ Este repositorio está diseñado para almacenar y organizar los materiales, cód
 
 1. [Instrucciones](#instrucciones)
 2. [Estructura del Repositorio](#estructura-del-repositorio)
-3. [Cómo Contribuir](#cómo-contribuir)
-4. [Contacto](#contacto)
+3. [Contacto](#contacto)
 
 ---
 
@@ -34,33 +33,6 @@ El repositorio está estructurado de la siguiente manera:
 - `README.md`: Este archivo que proporciona información general sobre el repositorio y su estructura.
 
 ---
-
-## Cómo Contribuir
-
-Si deseas contribuir a este repositorio, sigue estos pasos:
-
-1. Haz un *fork* de este repositorio.
-
-2. Clona tu *fork* en tu máquina local:
-
-   ```bash
-   git clone https://github.com/tu-usuario/repositorio-taller.git
-   ```
-1. Realiza tus cambios y mejoras en tu clon.
-2. Realiza commits con mensajes descriptivos:
-   
-```bash
-git add .
-git commit -m "Agrega materiales sobre [tema]"
-```
-3. Haz un push a tu fork:
-   
- ```bash
-git push origin master
- ```
-4. Crea un pull request en el repositorio original.
-
-5. Espera a que tu contribución sea revisada y fusionada.
 
 ## Contacto
 Si tienes preguntas, sugerencias o inquietudes relacionadas con este repositorio, no dudes en ponerte en contacto con el organizador del taller:
