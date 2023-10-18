@@ -67,6 +67,6 @@ Si tienes preguntas, sugerencias o inquietudes relacionadas con este repositorio
 
 1. Nombre: Joshua Aviles y Brian Guzman,
 2. Email: joshuaaviles58gmail.com,
-3. LinkedIn: [Perfil de LinkedIn](https://www.linkedin.com/in/joshua-aviles-a06672278/)https://www.linkedin.com/in/joshua-aviles-a06672278/
+3. LinkedIn: [Joshua Aviles](https://www.linkedin.com/in/joshua-aviles-a06672278/)https://www.linkedin.com/in/joshua-aviles-a06672278/
 
 ¡Gracias por contribuir y participar en este taller!
