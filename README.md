@@ -36,7 +36,7 @@ El repositorio está estructurado de la siguiente manera:
 Si tienes preguntas, sugerencias o inquietudes relacionadas con este repositorio, no dudes en ponerte en contacto con los organizadores del taller:
 
 1. Nombre: Joshua Aviles y Brian Guzmán.
-2. Email: joshuaaviles1234gmail.com y brian.azael02@gmail.com
+2. Email: joshuaaviles1234@gmail.com y brian.azael02@gmail.com
 3. LinkedIn: [Joshua Aviles](https://www.linkedin.com/in/joshua-aviles-a06672278/) y [Brian Guzmán](https://www.linkedin.com/in/briancgx/)
 
 ¡Gracias por contribuir y participar en este taller!
