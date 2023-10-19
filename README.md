@@ -18,8 +18,6 @@ Este repositorio se ha creado con el propósito de compartir y organizar recurso
 
 2. **Clona o Descarga:** Puedes clonar este repositorio o descargar los materiales directamente en tu dispositivo.
 
-3. **Contribuye:** Si deseas agregar o corregir información, sigue las instrucciones en la sección [Cómo Contribuir](#cómo-contribuir).
-
 ---
 
 ## Estructura del Repositorio
