@@ -1,0 +1,6 @@
+msfadmin
+root
+guest
+administrator
+user
+metasploitable
